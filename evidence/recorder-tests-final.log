@@ -1,0 +1,62 @@
+warning: /Users/aaronsteele/Library/org.swift.swiftpm/configuration is not accessible or not writable, disabling user-level cache features.
+warning: /Users/aaronsteele/Library/org.swift.swiftpm/security is not accessible or not writable, disabling user-level cache features.
+[0/1] Planning build
+Building for debugging...
+[0/7] Write sources
+[2/7] Write swift-version--58304C5D6DBC2206.txt
+[4/9] Emitting module CaptionCore
+[5/9] Compiling CaptionCore CaptionTree.swift
+[6/17] Compiling CaptionCoreTests MeetingRecorderTests.swift
+[7/17] Compiling CaptionCoreTests TranscriptTests.swift
+[8/17] Compiling CaptionCoreTests CaptionTreeTests.swift
+[9/17] Emitting module CaptionCoreTests
+[9/17] Write Objects.LinkFileList
+[10/17] Linking ZoomCaptionSaverPackageTests
+[12/17] Compiling CaptionApp ZoomAccessibility.swift
+[13/17] Compiling CaptionApp main.swift
+[14/17] Emitting module CaptionApp
+[14/17] Write Objects.LinkFileList
+[15/17] Linking ZoomCaptionSaver
+[16/17] Applying ZoomCaptionSaver
+Build complete! (4.57s)
+Test Suite 'All tests' started at 2026-10-15 13:45:50.046.
+Test Suite 'ZoomCaptionSaverPackageTests.xctest' started at 2026-10-15 13:45:50.048.
+Test Suite 'CaptionTreeTests' started at 2026-10-15 13:45:50.048.
+Test Case '-[CaptionCoreTests.CaptionTreeTests testNoCaptionTableMeansNoCapture]' started.
+Test Case '-[CaptionCoreTests.CaptionTreeTests testNoCaptionTableMeansNoCapture]' passed (0.001 seconds).
+Test Case '-[CaptionCoreTests.CaptionTreeTests testReadsOnlyTheCaptionTableAndPreservesSpeakerText]' started.
+Test Case '-[CaptionCoreTests.CaptionTreeTests testReadsOnlyTheCaptionTableAndPreservesSpeakerText]' passed (0.000 seconds).
+Test Suite 'CaptionTreeTests' passed at 2026-10-15 13:45:50.049.
+	 Executed 2 tests, with 0 failures (0 unexpected) in 0.001 (0.001) seconds
+Test Suite 'MeetingRecorderTests' started at 2026-10-15 13:45:50.049.
+Test Case '-[CaptionCoreTests.MeetingRecorderTests testDoesNotCreateEmptyTranscriptsWhenWaiting]' started.
+Test Case '-[CaptionCoreTests.MeetingRecorderTests testDoesNotCreateEmptyTranscriptsWhenWaiting]' passed (0.004 seconds).
+Test Case '-[CaptionCoreTests.MeetingRecorderTests testFileContainsRevisedCaptionWithSpeakerAndTimestamp]' started.
+Test Case '-[CaptionCoreTests.MeetingRecorderTests testFileContainsRevisedCaptionWithSpeakerAndTimestamp]' passed (0.007 seconds).
+Test Case '-[CaptionCoreTests.MeetingRecorderTests testHidingCaptionsKeepsTheSameMeetingFile]' started.
+Test Case '-[CaptionCoreTests.MeetingRecorderTests testHidingCaptionsKeepsTheSameMeetingFile]' passed (0.005 seconds).
+Test Case '-[CaptionCoreTests.MeetingRecorderTests testNextMeetingGetsASeparateFileAndIndependentHistory]' started.
+Test Case '-[CaptionCoreTests.MeetingRecorderTests testNextMeetingGetsASeparateFileAndIndependentHistory]' passed (0.004 seconds).
+Test Suite 'MeetingRecorderTests' passed at 2026-10-15 13:45:50.070.
+	 Executed 4 tests, with 0 failures (0 unexpected) in 0.020 (0.021) seconds
+Test Suite 'TranscriptTests' started at 2026-10-15 13:45:50.070.
+Test Case '-[CaptionCoreTests.TranscriptTests testCaptionDisappearingDoesNotEraseSavedText]' started.
+Test Case '-[CaptionCoreTests.TranscriptTests testCaptionDisappearingDoesNotEraseSavedText]' passed (0.000 seconds).
+Test Case '-[CaptionCoreTests.TranscriptTests testCaptionRevisionsReplaceEarlierTextAndKeepFirstTimestamp]' started.
+Test Case '-[CaptionCoreTests.TranscriptTests testCaptionRevisionsReplaceEarlierTextAndKeepFirstTimestamp]' passed (0.000 seconds).
+Test Case '-[CaptionCoreTests.TranscriptTests testDifferentRowsCanContainTheSameWords]' started.
+Test Case '-[CaptionCoreTests.TranscriptTests testDifferentRowsCanContainTheSameWords]' passed (0.000 seconds).
+Test Case '-[CaptionCoreTests.TranscriptTests testRepeatedPollDoesNotDuplicateCaption]' started.
+Test Case '-[CaptionCoreTests.TranscriptTests testRepeatedPollDoesNotDuplicateCaption]' passed (0.000 seconds).
+Test Case '-[CaptionCoreTests.TranscriptTests testReusedRowAfterDisappearingDoesNotOverwriteOldCaption]' started.
+Test Case '-[CaptionCoreTests.TranscriptTests testReusedRowAfterDisappearingDoesNotOverwriteOldCaption]' passed (0.000 seconds).
+Test Suite 'TranscriptTests' passed at 2026-10-15 13:45:50.071.
+	 Executed 5 tests, with 0 failures (0 unexpected) in 0.000 (0.001) seconds
+Test Suite 'ZoomCaptionSaverPackageTests.xctest' passed at 2026-10-15 13:45:50.071.
+	 Executed 11 tests, with 0 failures (0 unexpected) in 0.022 (0.023) seconds
+Test Suite 'All tests' passed at 2026-10-15 13:45:50.071.
+	 Executed 11 tests, with 0 failures (0 unexpected) in 0.022 (0.025) seconds
+◇ Test run started.
+↳ Testing Library Version: 1085
+↳ Target Platform: arm64e-apple-macos14.0
+✔ Test run with 0 tests in 0 suites passed after 0.001 seconds.
